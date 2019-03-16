@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d13d6555da784c70ae5153049e3eb37b" Name="Diagram1" ZoomLevel="74" >
+        <EntityTypeShape EntityType="Model1.Client" Width="1.5" PointX="5.25" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Auto" Width="1.5" PointX="2.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Sasiu" Width="1.5" PointX="0.5" PointY="0.5" />
+        <AssociationConnector Association="Model1.AutoSasiu" />
+        <EntityTypeShape EntityType="Model1.Mecanic" Width="1.5" PointX="2.875" PointY="4.875" />
+        <EntityTypeShape EntityType="Model1.Material" Width="1.5" PointX="5.75" PointY="4.125" />
+        <EntityTypeShape EntityType="Model1.Imagine" Width="1.5" PointX="9.5" PointY="1" />
+        <EntityTypeShape EntityType="Model1.Operatie" Width="1.5" PointX="7.375" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Comanda" Width="1.5" PointX="0.625" PointY="3.125" />
+        <EntityTypeShape EntityType="Model1.DetaliuComanda" Width="1.5" PointX="9.5" PointY="4.875" />
+        <AssociationConnector Association="Model1.ClientAuto" />
+        <AssociationConnector Association="Model1.ImagineDetaliuComanda" />
+        <AssociationConnector Association="Model1.ComandaAuto" />
+        <AssociationConnector Association="Model1.ComandaClient" />
+        <AssociationConnector Association="Model1.DetaliuComandaComanda" />
+        <AssociationConnector Association="Model1.DetaliuComandaMecanic" />
+        <AssociationConnector Association="Model1.DetaliuComandaMaterial" />
+        <AssociationConnector Association="Model1.OperatieComanda" />
+        <AssociationConnector Association="Model1.DetaliuComandaOperatie" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

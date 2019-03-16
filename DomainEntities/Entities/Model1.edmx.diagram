@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="234fbc9672424b29a2b9316c68baf852" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.Auto" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Clienti" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Comenzi" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.DetaliuComanda" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Imagine" Width="1.5" PointX="7.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Materiale" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Mecanici" Width="1.5" PointX="7.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Operatii" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Sasiuri" Width="1.5" PointX="1.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MSreplication_options" Width="1.5" PointX="3.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_db" Width="1.5" PointX="9.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_dev" Width="1.5" PointX="9.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="9.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="5.75" PointY="11.375" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK_AutoSasiu" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_ClientAuto" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_ComandaAuto" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_ComandaClient" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_DetaliuComandaComanda" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_OperatieComanda" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_DetaliuComandaMaterial" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_DetaliuComandaMecanic" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_DetaliuComandaOperatie" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_ImagineDetaliuComanda" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
